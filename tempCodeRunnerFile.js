@@ -1,0 +1,1 @@
+ console.log("variables =" + school[i].id + " | " + school[i].name + " | " + school[i].level + " | " + school[i].i
