@@ -4,7 +4,7 @@ interface Student {
     name: string;
     level: string;
     isSenior: boolean;
-    typeTeacher:boolean
+    typeTeacher:boolean;
 }
 let Student1: Student = {
     id: 1,
@@ -113,11 +113,11 @@ const isSenior = () => {
 
 //8 
 // courseNum
-const courseNumChanged = () => {
-    Teacher2.courseNum+=1
-    console.log(Teacher2.courseNum);
+const courseNumChanged = (C:number)=> {
+    Teacher2.courseNum=C;
+    console.log("New Number :"+Teacher2.courseNum);
   
   };
-  courseNumChanged()
+  courseNumChanged(5)
 
 

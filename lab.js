@@ -81,8 +81,8 @@ var isSenior = function () {
 isSenior();
 //8 
 // courseNum
-var courseNumChanged = function () {
-    Teacher2.courseNum += 1;
-    console.log(Teacher2.courseNum);
+var courseNumChanged = function (C) {
+    Teacher2.courseNum = C;
+    console.log("New Number :" + Teacher2.courseNum);
 };
-courseNumChanged();
+courseNumChanged(5);
